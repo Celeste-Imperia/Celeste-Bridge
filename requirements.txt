@@ -1,0 +1,8 @@
+﻿huggingface_hub
+openvino>=2024.0.0
+numpy
+tqdm
+diffusers
+accelerate
+transformers
+python-dotenv
