@@ -54,6 +54,5 @@ This project uses an **NVIDIA RTX A4000 (16GB)** as a high-capacity development 
 
 ## 🤝 Acknowledgments
 This project is built for the community. We use the RTX A4000 as a development forge to create tools that work for users with no GPU at all.
-FINAL_README_CELESTE_BRIDGE.txt
-Displaying FINAL_README_CELESTE_BRIDGE.txt.
+
 
