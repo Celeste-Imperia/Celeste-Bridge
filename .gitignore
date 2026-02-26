@@ -1,0 +1,26 @@
+﻿# Ignore Python environments
+envs/
+.venv/
+
+# Ignore Model Weights
+models_ir/
+models_dlc/
+*.safetensors
+*.bin
+*.xml
+*.dlc
+*.ckpt
+*.onnx
+
+# Ignore Logs & Calibration
+logs/
+calibration_data/
+calib_data/
+*.log
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore SDKs
+qualcomm_sdk/

@@ -1,0 +1,10 @@
+latent_sample:=F:/Porting_Project/calib_data/vae/latent_0.raw
+latent_sample:=F:/Porting_Project/calib_data/vae/latent_1.raw
+latent_sample:=F:/Porting_Project/calib_data/vae/latent_2.raw
+latent_sample:=F:/Porting_Project/calib_data/vae/latent_3.raw
+latent_sample:=F:/Porting_Project/calib_data/vae/latent_4.raw
+latent_sample:=F:/Porting_Project/calib_data/vae/latent_5.raw
+latent_sample:=F:/Porting_Project/calib_data/vae/latent_6.raw
+latent_sample:=F:/Porting_Project/calib_data/vae/latent_7.raw
+latent_sample:=F:/Porting_Project/calib_data/vae/latent_8.raw
+latent_sample:=F:/Porting_Project/calib_data/vae/latent_9.raw
