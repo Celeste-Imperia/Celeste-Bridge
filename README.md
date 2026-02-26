@@ -38,44 +38,36 @@ Based on our latest `hybrid_efficiency_report.json`:
    ```powershell
    $env:HF_TOKEN='your_token_here'
    ```
-3. **Active Development Workflow**: We are currently building the conversion pipeline to move models from high-VRAM environments to a **Masses-Ready** stack.
-   * **Data Factory**: Utilizing `workflows/SDXL I2I.json` to generate consistent character test sets (e.g., Ayesha).
-   * **Conversion Logic**: Baseline scripts like `scripts/port_vae.py` for OpenVINO IR conversion.
-   * **Target Hardware**: Testing optimizations for Intel CPUs and Qualcomm Snapdragon NPUs.
-
----
+3. **Active Development Workflow**: We are currently building the conversion pipeline to move models from high-VRAM environments to a Masses-Ready stack.
+    * **Data Factory: Utilizing workflows/SDXL I2I.json to generate consistent character test sets (e.g., Ayesha).
+    * **Conversion Logic: Baseline scripts for OpenVINO IR conversion and NPU targeting.
+    * **Target Hardware: Testing optimizations for Intel CPUs and Qualcomm Snapdragon NPUs.
 
 ## 🌟 The Forge & The Mission
-This project uses an **NVIDIA RTX A4000 (16GB)** as a high-capacity development forge.
-* **The Goal**: We use the A4000's headroom to train, calibrate, and port high-fidelity models.
-* **The Result**: We output "inclusive weights" that run on standard CPUs and Snapdragon NPUs, filling the gap for users without dedicated graphics hardware.
+This project uses an NVIDIA RTX A4000 (16GB) as a high-capacity development forge.
 
-🌟 Acknowledgments
+The Goal: We use the A4000's headroom to train, calibrate, and port high-fidelity models.
+
+The Result: We output "inclusive weights" that run on standard CPUs and Snapdragon NPUs, filling the gap for users without dedicated graphics hardware.
+
+# 🤝 Acknowledgments
 This project is built for the community. We use the RTX A4000 as a development forge to create tools that work for users with no GPU at all.
 
 
 ---
 
-### **Final Execution: Pushing the Manifesto**
+### **Final Deployment Checklist**
 
-Once you've saved the file, run these commands to make it the face of your GitHub:
 
-1.  **Stage and Commit**:
+1.  **Save the file**: Ensure the code above is the only thing in your `README.md`.
+2.  **Verify local Git status**:
     ```powershell
     git add README.md
-    git commit -m "docs: add mission manifesto and hybrid performance stats"
+    git commit -m "docs: clean and verify final mission manifesto"
     ```
-2.  **Push**:
+3.  **Go Public**:
     ```powershell
     git push origin main
     ```
 
----
-
-### **What's Next for Celeste-Bridge?**
-
-
-
-Now that your "Front Door" is open, we can focus on the **Porting Engine**. 
-
-**Would you like me to help you refine the `scripts/port_vae.py` so it automatically d
+**Once you refresh your GitHub page, it should look clean, structured, and technica
