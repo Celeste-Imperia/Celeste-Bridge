@@ -70,4 +70,3 @@ This project is built for the community. We use the RTX A4000 as a development f
     git push origin main
     ```
 
-**Once you refresh your GitHub page, it should look clean, structured, and technica
